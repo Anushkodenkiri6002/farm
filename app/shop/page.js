@@ -1,6 +1,7 @@
-import Link from "next/link";  
+"use client"
+import Link from "next/link"; 
 import ShopProducts from "../components/ShopProducts";
-
+import { useRouter } from "next/navigation";
 const shopProducts = [
   { id: 1, category:"CROP,ORGANIC ",name: "Strawberry", price: "$12.00", img: "https://agrica-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fproducts%2F1.png&w=1080&q=75" },
   { id: 2, category:"VEGETABLES,WINTER",name: "Organic Carrot", price: "$5.00", img: "https://agrica-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fproducts%2F2.png&w=1080&q=75" },
@@ -13,6 +14,7 @@ const shopProducts = [
 ];
 
 export default function ShopPage() {
+  let router=useRouter();
   return (
     <div>
     
@@ -31,9 +33,9 @@ export default function ShopPage() {
       <ShopProducts products={shopProducts} title="Our Organic Products" />
 
       <div className="flex gap-4 justify-center mt-12 mb-20">
-        <Link href="/shop"className="px-5 py-2 border rounded-full hover:bg-green-500 hover:text-white transition" >1</Link>
-        <Link href="/shop/page2"className="px-5 py-2 border rounded-full hover:bg-green-500 hover:text-white transition" >2</Link>
-        <Link href="/shop/page3"className="px-5 py-2 border rounded-full hover:bg-green-500 hover:text-white transition" >3</Link>
+        <button onClick={()=>router.push("/shop")} className="px-5 py-2 border rounded-full hover:bg-green-500 hover:text-white transition" >1</button>
+        <button onClick={()=>router.push("/shop/page2")} className="px-5 py-2 border rounded-full hover:bg-green-500 hover:text-white transition" >2</button>
+        <button onClick={()=>router.push("/shop/page3")} className="px-5 py-2 border rounded-full hover:bg-green-500 hover:text-white transition" >3</button>
       </div>
     
     </div>
