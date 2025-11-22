@@ -141,28 +141,27 @@ majority have suffered alteration in some form by injected humor or<br className
     </div>
     <div className="bg-green-800 text-white p-6 flex-1 flex flex-wrap justify-center items-center gap-6">
       <div className="flex flex-col items-center">
-        <img src="blueberry.png" alt="Blueberry" className="w-10 h-10 mb-2"/>
+        <img src="https://agrica-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2F9.png&w=1080&q=75" alt="Blueberry" className="w-10 h-10 mb-2"/>
         <p className="text-sm">Blueberry</p>
       </div>
       <div className="flex flex-col items-center">
-        <img src="strawberry.png" alt="Strawberry" className="w-10 h-10 mb-2"/>
+        <img src="https://agrica-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2F10.png&w=1080&q=75" alt="Strawberry" className="w-10 h-10 mb-2"/>
         <p className="text-sm">Strawberry</p>
       </div>
       <div className="flex flex-col items-center">
-        <img src="cabbage.png" alt="Cabbage" className="w-10 h-10 mb-2"/>
+        <img src="https://agrica-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2F11.png&w=1080&q=75" alt="Cabbage" className="w-10 h-10 mb-2"/>
         <p className="text-sm">Cabbage</p>
       </div>
       <div className="flex flex-col items-center">
-        <img src="maize.png" alt="Maize" className="w-10 h-10 mb-2"/>
+        <img src="https://agrica-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2F12.png&w=1080&q=75" alt="Maize" className="w-10 h-10 mb-2"/>
         <p className="text-sm">Maize</p>
       </div>
       <div className="flex flex-col items-center">
-        <img src="orange.png" alt="Orange" className="w-10 h-10 mb-2"/>
+        <img src="https://agrica-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2F13.png&w=1080&q=75" alt="Orange" className="w-10 h-10 mb-2"/>
         <p className="text-sm">Orange</p>
       </div>
 <div className="flex flex-col items-center">
-  {/* edited */}
-        <img src="orange.png" alt="Apples" className="w-10 h-10 mb-2"/> 
+        <img src="https://agrica-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2F14.png&w=1080&q=75" alt="Apples" className="w-10 h-10 mb-2"/> 
     <p className="text-sm">Apples</p>
       </div></div>
   </div>
@@ -285,18 +284,10 @@ end literature. Gay direction neglected but supported yet her.</p></div></div>
           type="email"
           placeholder="Email*"
           className="w-full md:w-1/2 border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500"/>
-        <input
-          type="text"
-          placeholder="Phone"
-          className="w-full md:w-1/2 border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500"/>
+        <input type="text"placeholder="Phone"className="w-full md:w-1/2 border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500"/>
       </div>
-      <textarea placeholder="Tell Us About Project*"
-        rows="4"
-        className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500"></textarea>
-      <button
-        type="submit"
-        className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-6 py-3 rounded-lg flex items-center justify-center gap-2 transition duration-200">
-        ✉ Get In Touch
+      <textarea placeholder="Tell Us About Project*"rows="4" className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500"></textarea>
+      <button type="submit"className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-6 py-3 rounded-lg flex items-center justify-center gap-2 transition duration-200">✉ Get In Touch
       </button>
     </form>
   </div>
