@@ -12,10 +12,10 @@ export default function ShopProducts({ products, title }) {
   };
 
   return (
-    <div className="max-w-6xl mx-auto px-5 py-12">
+    <div className="w-full md:-[360] px-5 py-12 dark:bg-black">
       <div>
         <div className="flex items-center justify-between mb-8">
-          <p className="text-gray-600">Showing 8 of 20 results</p>
+          <p className="text-gray-600 dark:text-white">Showing 8 of 20 results</p>
         </div>
 
         <div className="flex items-center justify-between mb-8">
@@ -31,8 +31,8 @@ export default function ShopProducts({ products, title }) {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {products.map((product) => (
-          <div key={product.id} className="border rounded-xl p-4 shadow-sm hover:shadow-lg transition">
-            <div className="w-full h-56 bg-gray-200 rounded-lg overflow-hidden">
+          <div key={product.id} className="border rounded-xl border border-white p-4 shadow-sm hover:shadow-lg transition">
+            <div className="w-full h-56 bg-gray-200  rounded-lg overflow-hidden">
               <img src={product.img} alt={product.name} className="w-full h-full object-cover" />
             </div>
 

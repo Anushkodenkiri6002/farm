@@ -1,14 +1,13 @@
 import React from 'react'
-
 const Footer = () => {
   return (
     <div className='p'>
     <div>
-      <div className="bg-green-900 text-white py-10 px-6 md:px-12">
+      <div className="bg-green-900 text-white dark:bg-black py-10 px-6 md:px-12">
   <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
     <div>
       <div className="flex items-center gap-2 mb-4">
-        <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
+        <div className="w-10 h-10 bg-green-400 rounded-full flex items-center justify-center">
         </div>
         <h2 className="text-2xl font-bold">AGRICA</h2>
       </div>

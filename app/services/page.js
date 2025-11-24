@@ -51,7 +51,7 @@ export default function ServicesPage() {
 
 
       <div className="min-h-screen bg-[#e5f0e9] py-20 px-6">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div className="max-w-full mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
           {services.map((item, index) => (
             <div
               key={index}
@@ -89,7 +89,7 @@ export default function ServicesPage() {
 
         <section className="w-full grid grid-cols-1 md:grid-cols-2 mt-20">
           <div className="p-16 flex flex-col justify-center bg-white">
-            <h1 className="text-[65px] font-extrabold text-green-700 leading-tight">
+            <h1 className="text-[60px] font-bold text-green-700 leading-tight">
               Healthy Life <br />
               With Fresh <br />
               Products

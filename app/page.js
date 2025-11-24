@@ -16,8 +16,8 @@ export default function Home() {
   <div className=" hidden md:block absolute right-4 top-1/2 -translate-y-1/2 bg-green-200 rounded-full w-10 h-10 flex items-center justify-center text-green-900 text-2xl cursor-pointer hover:bg-green-300 transition">
     
   </div></div>
-<div className="w-full bg-blue-100 flex flex-col md:flex-row items-center justify-center py-10 px-5">
-  <div className="flex flex-col md:flex-row items-center md:items-start text-black max-w-[1200px] w-full">
+<div className="w-full bg-blue-100 dark:bg-black dark:border-white mt-1 mb-1 flex flex-col md:flex-row items-center justify-center py-10 px-5">
+  <div className="flex flex-col md:flex-row items-center md:items-start text-black dark:text-white max-w-[1200px] w-full">
     
     <img 
       src="https://agrica-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fabout%2F1.jpg&w=1920&q=75" 
@@ -27,7 +27,7 @@ export default function Home() {
     
     <div className="md:ml-10 text-center md:text-left">
       <p className="text-3xl sm:text-4xl md:text-5xl font-bold leading-snug mb-5"> Agriculture & Organic <br /> Product Farm</p>
-      <p className="text-sm sm:text-base md:text-lg text-gray-700 mb-8">There are many variations of passages of ipsum available but the<br className="hidden sm:block"/>
+      <p className="text-sm sm:text-base md:text-lg text-gray-700 dark:text-white mb-8">There are many variations of passages of ipsum available but the<br className="hidden sm:block"/>
 majority have suffered alteration in some form by injected humor or<br className="hidden sm:block"/>random word which don’t look even. Comparison new ham melancholy
       </p>
 
@@ -52,11 +52,11 @@ majority have suffered alteration in some form by injected humor or<br className
       <p className="text-sm md:text-base mt-2"> Majority have suffered alteration <br /> in some form by injected humor.</p>
     </div></div>
 </div>
-<div className="bg-[#f5f7f5] py-12 px-4 md:px-8">
+<div className="bg-[#f5f7f5] dark:bg-black mb-1 py-12 px-4 md:px-8">
   <div className="max-w-6xl mx-auto">
   <div className="text-center mb-10">
-  <p className="text-sm text-green-700 font-medium">What We Do</p>
-  <h2 className="text-3xl md:text-5xl font-extrabold text-gray-900 mt-2">Currently we are<br className="hidden md:block" />selling organic food</h2>
+  <p className="text-xl text-green-400 font-medium">What We Do</p>
+  <h2 className="text-3xl md:text-5xl font-extrabold text-gray-900 dark:text-blue-300 mt-2">Currently we are<br className="hidden md:block" />selling organic food</h2>
     </div>
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       <div className="bg-white rounded-2xl p-6 shadow hover:shadow-lg transition">
@@ -108,7 +108,7 @@ majority have suffered alteration in some form by injected humor or<br className
     </div> </div>
 </div>
 <div className="flex flex-col md:flex-row flex-wrap">
-  <div className="bg-green-600 text-white flex-1 flex flex-col justify-center md:w-170 ">
+  <div className="bg-green-600 text-white flex-1 flex flex-col text-center justify-center md:w-178 ">
     <h2 className="text-2xl font-bold mb-2">
       Distributors of<br/>Organic Produce
     </h2>
@@ -129,8 +129,8 @@ majority have suffered alteration in some form by injected humor or<br className
     </ul>
   </div>
 
-  <div className="flex-1 md:w-100 h-100 ">
-    <img src="https://wallpaperbat.com/img/395532-tractor-wallpaper-top-free-tractor-background.jpg" alt="Tractor field" className="w-full h-full object-cover"/>
+  <div className="flex-1  md:w-100 h-100 ">
+    <img src="https://wallpaperbat.com/img/395532-tractor-wallpaper-top-free-tractor-background.jpg" alt="Tractor field" className=" h-full w-full object-cover"/>
   </div>
 
   <div className="flex flex-col md:flex-row w-full h-100">
@@ -203,10 +203,10 @@ style={{ backgroundImage: "url('https://media.istockphoto.com/photos/green-grass
     </div></div>
 </div>
 
-<div className="w-full max-w-[1425px] h-auto bg-white flex flex-col items-center justify-start mx-auto py-12 px-6 md:px-16">
+<div className="w-full md:[w-360] h-auto bg-white dark:bg-black mb-1 flex flex-col items-center justify-start mx-auto py-12 px-6 md:px-16">
   <div className="text-center mb-10">
     <p className="text-green-600 font-medium text-lg">Awesome Gallery</p>
-    <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mt-2">Explore Projects</h2>
+    <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white mt-2">Explore Projects</h2>
   </div>
 
   <div className="flex flex-col md:flex-row items-center justify-center gap-10">
@@ -241,29 +241,29 @@ style={{ backgroundImage: "url('https://media.istockphoto.com/photos/green-grass
   </div>
   </div>
 
-<div className="w-full md:w-360px min-h-[500px] bg-white flex flex-col md:flex-row items-center justify-center mx-auto px-6 md:px-10 py-12 rounded-2xl">
+<div className="w-full md:w-360px min-h-[500px] bg-white dark:bg-black flex flex-col md:flex-row items-center justify-center mx-auto px-6 md:px-10 py-12 rounded-2xl">
   <div className="w-72 md:w-80 h-48 md:h-56 bg-gray-200 border-8 border-yellow-400 rounded-md overflow-hidden flex items-center justify-center">
     <img src="https://agrica-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fillustration%2F9.png&w=1200&q=75"
       className="object-contain w-full h-full"/></div>
   <div className="flex flex-col justify-center px-0 md:px-10 mt-8 md:mt-0 text-center md:text-left">
     <div className="mb-6">
-      <h3 className="text-xl font-bold text-gray-900 mb-2">Pure & Organic</h3>
-      <p className="text-gray-600 leading-relaxed max-w-xs mx-auto md:mx-0">Continued at up to zealously necessary breakfast. Surrounded sir motionless she
+      <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Pure & Organic</h3>
+      <p className="text-gray-600 dark:text-white leading-relaxed max-w-xs mx-auto md:mx-0">Continued at up to zealously necessary breakfast. Surrounded sir motionless she
         end literature. Gay direction neglected but supported yet her.</p>
     </div>
     <div>
-      <h3 className="text-xl font-bold text-gray-900 mb-2">Always Fresh</h3>
-      <p className="text-gray-600 leading-relaxed max-w-xs mx-auto md:mx-0">Continued at up to zealously necessary breakfast. Surrounded sir motionless she
+      <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Always Fresh</h3>
+      <p className="text-gray-600 dark:text-white leading-relaxed max-w-xs mx-auto md:mx-0">Continued at up to zealously necessary breakfast. Surrounded sir motionless she
 end literature. Gay direction neglected but supported yet her.</p></div></div>
   <div className="flex flex-row md:flex-col items-center justify-center gap-8 mt-8 md:mt-0 md:ml-8">
     <div className="flex flex-col items-center">
-      <div className="relative w-20 h-20 md:w-24 md:h-24 rounded-full border-4 border-green-500 flex items-center justify-center text-lg md:text-xl font-semibold text-gray-800">83%</div>
-      <p className="mt-2 text-sm text-gray-700 font-medium">Organic Solutions</p>
+      <div className="relative w-20 h-20 md:w-24 md:h-24 rounded-full border-4 border-green-500 flex items-center justify-center text-lg md:text-xl font-semibold text-gray-800 dark:text-white">83%</div>
+      <p className="mt-2 text-sm text-gray-700 dark:text-white font-medium">Organic Solutions</p>
     </div>
     <div className="flex flex-col items-center">
-      <div className="relative w-20 h-20 md:w-24 md:h-24 rounded-full border-4 border-yellow-400 flex items-center justify-center text-lg md:text-xl font-semibold text-gray-800">60%
+      <div className="relative w-20 h-20 md:w-24 md:h-24 rounded-full border-4 border-yellow-400 flex items-center justify-center text-lg md:text-xl font-semibold text-gray-800 dark:text-white">60%
       </div>
-      <p className="mt-2 text-sm text-gray-700 font-medium">Quality Agriculture</p>
+      <p className="mt-2 text-sm text-gray-700 dark:text-white font-medium">Quality Agriculture</p>
     </div></div>
 </div>
 <div

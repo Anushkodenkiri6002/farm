@@ -23,9 +23,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-w-screen`}
       >
-   <div className="min-h-screen flex flex-col justify-between">
+   <div className="min-h-screen  flex flex-col justify-between">
           <Navbar />
-          <main className="flex-grow">{children}</main>
+          <main >{children}</main>
           <Footer />
         </div>
       </body>

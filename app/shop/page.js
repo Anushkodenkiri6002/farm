@@ -20,7 +20,7 @@ export default function ShopPage() {
     
 
       <div
-        className="w-full h-[360px] bg-cover bg-center flex justify-center items-center text-white relative"
+        className="w-full h-[360px] bg-cover bg-center flex justify-center items-center text-white relative dark:bg-black"
         style={{
           backgroundImage: "url(https://png.pngtree.com/thumb_back/fh260/background/20240929/pngtree-professional-photo-of-smart-tractor-working-in-the-field-with-network-image_16274865.jpg)"
         }}
@@ -36,8 +36,7 @@ export default function ShopPage() {
         <button onClick={()=>router.push("/shop")} className="px-5 py-2 border rounded-full hover:bg-green-500 hover:text-white transition" >1</button>
         <button onClick={()=>router.push("/shop/page2")} className="px-5 py-2 border rounded-full hover:bg-green-500 hover:text-white transition" >2</button>
         <button onClick={()=>router.push("/shop/page3")} className="px-5 py-2 border rounded-full hover:bg-green-500 hover:text-white transition" >3</button>
-      </div>
-    
+    </div>
     </div>
     </div>
   );
