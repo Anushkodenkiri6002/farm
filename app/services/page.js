@@ -168,7 +168,7 @@ export default function ServicesPage() {
               </div>
               <p className="mt-3 font-semibold">Organic Solutions</p>
             </div>
-
+ 
             <div className="flex flex-col items-center">
               <div className="w-36 h-36 rounded-full border-4 border-yellow-500 flex items-center justify-center">
                 <span className="text-3xl font-bold text-yellow-500">60%</span>
