@@ -46,12 +46,12 @@ const Navbar = () => {
         />
 
        
-        <div className="hidden md:flex space-x-6 items-center">
-          <button onClick={() => router.push("/")} className="hover:underline">Home</button>
-          <button onClick={() => router.push("/cart")} className="hover:underline">Cart</button>
-          <button onClick={() => router.push("/services")} className="hover:underline">Services</button>
-          <button onClick={() => router.push("/blog")} className="hover:underline">Blog</button>
-          <button onClick={() => router.push("/shop")} className="hover:underline">Shop</button>
+        <div className="hidden md:flex space-x-35 items-center">
+          <button onClick={() => router.push("/")} className="hover:underline dark:text-white">Home</button>
+          <button onClick={() => router.push("/cart")} className="hover:underline dark:text-white">Cart</button>
+          <button onClick={() => router.push("/services")} className="hover:underline dark:text-white">Services</button>
+          <button onClick={() => router.push("/blog")} className="hover:underline dark:text-white">Blog</button>
+          <button onClick={() => router.push("/shop")} className="hover:underline dark:text-white">Shop</button>
 
           <button
             onClick={() => document.documentElement.classList.toggle("dark")}
