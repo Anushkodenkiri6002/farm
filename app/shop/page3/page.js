@@ -12,10 +12,10 @@ export default function ShopPage2() {
 
 return(
 
-    <div>
+    <div className="dark:bg-black">
         
       <div
-        className="w-full h-[360px] bg-cover bg-center flex justify-center items-center text-white relative"
+        className="w-full h-[360px] bg-cover bg-center flex justify-center items-center text-white  relative"
         style={{
           backgroundImage: "url(https://png.pngtree.com/thumb_back/fh260/background/20240929/pngtree-professional-photo-of-smart-tractor-working-in-the-field-with-network-image_16274865.jpg)"
         }}

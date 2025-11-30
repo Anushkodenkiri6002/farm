@@ -48,8 +48,8 @@ export default function ShopProducts({ products, title }) {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {products.map((product) => (
-          <div key={product.id} className="border rounded-xl p-4 shadow-sm hover:shadow-lg transition">
-            <div className="w-full h-56 bg-gray-200 rounded-lg overflow-hidden">
+          <div key={product.id} className="border rounded-xl border border-white p-4 shadow-sm hover:shadow-lg transition">
+            <div className="w-full h-56 bg-gray-200  rounded-lg overflow-hidden">
               <img src={product.img} alt={product.name} className="w-full h-full object-cover" />
             </div>
 

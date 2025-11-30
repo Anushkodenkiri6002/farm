@@ -3,7 +3,7 @@ import React from 'react'
 const blog = () => {
   return (
     <div>
-   <div className="w-full max-w-[1425px] h-auto bg-white flex flex-col items-center justify-start mx-auto py-12 px-6 md:px-16">
+   <div className="w-full max-w-4xl h-auto bg-white flex flex-col items-center justify-start mx-auto py-12 px-6 md:px-16">
   <div className="text-center mb-10">
     <h2 className="text-3xl md:text-5xl font-extrabold text-gray-900 mt-2">Blog</h2>
   </div>
