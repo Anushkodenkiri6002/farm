@@ -67,7 +67,7 @@ const Navbar = () => {
 
         
         <button
-          className="md:hidden text-3xl"
+          className="md:hidden text-3xl bg-white dark:bg-white"
           onClick={() => setOpen(!open)}
         >
           {open ? "✖" : "☰"}
