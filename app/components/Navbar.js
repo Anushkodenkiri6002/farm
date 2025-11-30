@@ -74,7 +74,7 @@ const Navbar = () => {
         </button>
 
         {open && (
-          <div className="absolute top-20 left-0 w-full bg-white dark:bg-black shadow-md flex flex-col p-5 space-y-4 md:hidden z-50">
+          <div className="absolute top-20 left-0 w-full bg-white dark:bg-white shadow-md flex flex-col p-5 space-y-4 md:hidden z-50">
 
             <button onClick={() => router.push("/")} className="py-2 border-b">Home</button>
             <button onClick={() => router.push("/cart")} className="py-2 border-b">Cart</button>
